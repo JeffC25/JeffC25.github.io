@@ -1,5 +1,8 @@
 import Navbar from "./components/Navbar"
-import Page from "./components/Page"
+import Home from "./components/Home"
+import Projects from "./components/Projects"
+import Contacts from "./components/Contacts"
+import About from "./components/About"
 
 function App() {
 
@@ -8,10 +11,11 @@ function App() {
       <div className="flex-grow-0 h-20">
         <Navbar />
       </div>
-      <div className="overflow-y-scroll h-full snap-mandatory snap-y ">
-        <Page />
-        <Page />
-        <Page />
+      <div className="overflow-y-scroll h-full snap-mandatory snap-y scroll-smooth">
+        <Home />
+        <About />
+        <Projects />
+        <Contacts />
       </div>
     </div>
   )
