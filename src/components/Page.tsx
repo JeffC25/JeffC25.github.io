@@ -1,6 +1,6 @@
 const Page = () => {
     return (
-        <div className="h-screen w-full pt-20 snap-start">
+        <div className="h-full w-full snap-start bg-green-200">
             Page
         </div>
     )
