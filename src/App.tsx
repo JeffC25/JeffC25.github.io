@@ -4,12 +4,13 @@ import Page from "./components/Page"
 function App() {
 
   return (
-    <div className="w-full h-screen overflow-y-scroll snap-y">
+    <div className="w-full h-screen bg-blue-400">
       <Navbar />
-      <Page />
-      <Page />
-      <Page />
-      <Page />
+        <div className="overflow-y-scroll h-full snap-mandatory snap-y">
+        <Page />
+        <Page />
+        <Page />
+      </div>
     </div>
   )
 }
