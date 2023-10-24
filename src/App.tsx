@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar"
-import Home from "./components/Home"
-import Projects from "./components/Projects"
-import Contacts from "./components/Contacts"
-import About from "./components/About"
+import Navbar from "./components/Navbar.tsx"
+import Home from "./components/Home.tsx"
+import Projects from "./components/Projects.tsx"
+import Contacts from "./components/Contacts.tsx"
+import About from "./components/About.tsx"
 
 function App() {
 
