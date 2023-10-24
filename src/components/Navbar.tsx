@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
-        <nav className="w-full h-20 bg-transparent flex flex-row space-x-4 px-2 text-3xl items-center justify-between">
-            <div className="">Logo</div>
+        <nav className="w-3/4 h-20 flex flex-row space-x-4 text-xl items-center">
+            <div className="">Jeff</div>
             <div className="flex-grow"></div>
             <a href="#home" className="">Home</a>
             <a href="#about" className="">About</a>

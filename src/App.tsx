@@ -7,11 +7,11 @@ import About from "./components/About.tsx"
 function App() {
 
   return (
-    <div className="w-full h-screen bg-blue-400 flex flex-col">
-      <div className="flex-grow-0 h-20">
+    <div className="w-full h-screen overflow-y-scroll snap-y scroll-smooth">
+      <div className="absolute top-0 w-full h-20 shadow-md flex justify-center backdrop-blur-sm ">
         <Navbar />
       </div>
-      <div className="overflow-y-scroll h-full snap-mandatory snap-y scroll-smooth">
+      <div className="h-screen">
         <Home />
         <About />
         <Projects />
