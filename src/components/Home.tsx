@@ -1,10 +1,11 @@
-import bg7 from "../assets/bg7.jpg";
+import bg8 from "../assets/bg8.svg";
 
 const Home = () => {
     return (
         <div id="home" className="relative h-full snap-start flex flex-col sm:flex-row justify-center items-center">
-            <img src={bg7} className="absolute top-0 object-fill h-full w-full -z-50"/>
-            <div className="flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0 sm:space-x-20 bg-neutral-100/50 backdrop-blur-lg p-20 rounded-xl shadow-lg">
+            <img src={bg8} className="absolute top-0 object-cover h-full w-full -z-50" />
+            <div className="flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0 sm:space-x-20">
+            {/* <div className="flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0 sm:space-x-20 bg-neutral-300/50 backdrop-blur-lg p-52 rounded-xl shadow-md"> */}
                 <div className="h-fit w-44 sm:w-52 flex flex-col justify-center space-y-4 ">
                     <img 
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/1200px-Vombatus_ursinus_-Maria_Island_National_Park.jpg" 

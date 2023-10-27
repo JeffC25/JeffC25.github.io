@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="w-full h-screen overflow-y-scroll snap-y scroll-smooth">
-      <div className="absolute top-0 w-full h-20 shadow-md flex justify-center backdrop-blur-md bg-neutral-300/50 z-50">
+      <div className="sticky top-0 w-full h-20 shadow-md flex justify-center backdrop-blur-md bg-neutral-300/50 z-50">
         <Navbar />
       </div>
       <div className="h-screen">
