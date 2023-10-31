@@ -1,12 +1,12 @@
-import bg8 from "../assets/bg8.svg";
+// import bg8 from '../assets/bg8.svg';
 
 const Home = () => {
     return (
         <div id="home" className="relative h-full snap-start flex flex-col sm:flex-row justify-center items-center text-neutral-800">
-            <img src={bg8} className="absolute top-0 object-cover h-full w-full -z-50" />
+            {/* <img src={bg8} className="absolute top-0 object-cover h-full w-full -z-50" /> */}
             <div className="flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0 sm:space-x-20">
-            {/* <div className="flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0 sm:space-x-20 bg-neutral-300/50 backdrop-blur-lg p-52 rounded-xl shadow-md"> */}
-                <div className="h-fit w-44 sm:w-52 flex flex-col justify-center space-y-4 ">
+                {/* <div className="flex flex-col sm:flex-row items-center space-y-10 sm:space-y-0 sm:space-x-20 bg-neutral-300/50 backdrop-blur-lg p-52 rounded-xl shadow-md"> */}
+                {/* <div className="h-fit w-44 sm:w-52 flex flex-col justify-center space-y-4 ">
                     <img 
                         src="https://media.licdn.com/dms/image/C5603AQHmD3d2p0CvPg/profile-displayphoto-shrink_800_800/0/1655080206114?e=1703721600&v=beta&t=xNy3DQr2macGwFxH3VdJ3tdPVCimWHukv67CfK6PO44" 
                         className="w-full aspect-square rounded-full object-cover"
@@ -24,8 +24,8 @@ const Home = () => {
                         </a>
                     </ul>
 
-                </div>
-                <div className="text-center sm:text-left">
+                </div> */}
+                <div className="text-center">
                     <h1 className="text-5xl">
                         Hi, I'm Jeff.
                     </h1>
