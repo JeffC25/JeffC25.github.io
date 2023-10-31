@@ -16,7 +16,7 @@ const SkillsWidget = ({tab}: Props) => {
                         src="https://media.licdn.com/dms/image/C5603AQHmD3d2p0CvPg/profile-displayphoto-shrink_800_800/0/1655080206114?e=1703721600&v=beta&t=xNy3DQr2macGwFxH3VdJ3tdPVCimWHukv67CfK6PO44" 
                         className="aspect-square object-cover rounded-md bottom-2 right-2 absolute shadow-sm"
                     />
-                    <div className="aspect-square w-full rounded-md bg-gradient-to-r from-lime-300 via-cyan-400 to-blue-500"></div>
+                    <div className="aspect-square w-full rounded-md bg-gradient-to-tr from-lime-300 via-cyan-400 to-blue-500"></div>
                 </div>
             </div>
         </section>
