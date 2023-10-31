@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div id="projects" className="h-full w-full snap-start">
+        <div id="projects" className="h-screen w-full snap-start">
             Projects
         </div>
     )
