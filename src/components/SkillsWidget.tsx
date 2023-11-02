@@ -26,6 +26,7 @@ const SkillsWidget = ({tab}: Props) => {
                 <ul className="text-xl md:text-3xl space-y-2">
                     <li>React</li>
                     <li>Svelte</li>
+                    <li>Remix</li>
                     <li>Express.js</li>
                     <li>Flask</li>
                     <li>Django</li>
@@ -49,11 +50,11 @@ const SkillsWidget = ({tab}: Props) => {
                     Tools
                 </h1>
                 <ul className="text-xl md:text-3xl space-y-2">
+                    <li>Node.js</li>
                     <li>Docker</li>
                     <li>Kubernetes</li>
                     <li>NGINX</li>
                     <li>AWS</li>
-
                 </ul>
             </div>
         </section>
