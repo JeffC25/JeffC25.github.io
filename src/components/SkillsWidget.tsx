@@ -4,7 +4,7 @@ interface Props {
 
 const SkillsWidget = ({tab}: Props) => {
     return (
-        <section className={`w-full pt-20 flex space-x-2 ${(tab == 1 ? "block" : "hidden")}`}>
+        <section className={`w-full pt-20 flex space-x-2 justify-between ${(tab == 1 ? "block" : "hidden")}`}>
             <div className="">
                 <h1 className="text-2xl text-lime-500 mb-2">
                     Languages
