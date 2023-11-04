@@ -6,9 +6,9 @@ interface Props {
 
 const AboutWidget = ({ tab }: Props) => {
     return (
-        <section className={`pt-20 w-full flex flex-row flex-grow justify-center ${(tab == 0 ? "block" : "hidden")}`}>
+        <section className={`pt-10 w-full flex flex-row flex-grow justify-center ${(tab == 0 ? "block" : "hidden")}`}>
             <p className="text-xl md:w-2/3">
-                My name is Jeffrey Chen, and I'm a 4th year student studying Computer Engineering at Boston University.
+                I'm a 4th year student studying Computer Engineering at Boston University.
                 I'm passionate about web development, scalable architectures, and open-source software.
                 When I'm not developing, I enjoy cooking, drawing, and playing the guitar.
             </p>
