@@ -11,7 +11,7 @@ const SkillsWidget = ({ tab }: Props) => {
                 <h1 className="text-xl text-lime-500">
                     Languages
                 </h1>
-                <ul className="md:text-2xl flex flex-wrap">
+                <ul className="flex flex-wrap">
                     {Skill("Go")}
                     {Skill("C++")}
                     {Skill("C#")}
@@ -25,7 +25,7 @@ const SkillsWidget = ({ tab }: Props) => {
                 <h1 className="text-xl text-green-500">
                     Frameworks
                 </h1>
-                <ul className="md:text-2xl flex flex-wrap">
+                <ul className="flex flex-wrap">
                     {Skill("React")}
                     {Skill("Svelte")}
                     {Skill("Remix")}
@@ -39,7 +39,7 @@ const SkillsWidget = ({ tab }: Props) => {
                 <h1 className="text-xl text-cyan-500">
                     Databases
                 </h1>
-                <ul className="md:text-2xl flex flex-wrap">
+                <ul className="flex flex-wrap">
                     {Skill("PostgreSQL")}
                     {Skill("SQLite")}
                     {Skill("MongoDB")}
@@ -51,7 +51,7 @@ const SkillsWidget = ({ tab }: Props) => {
                 <h1 className="text-xl text-blue-500">
                     Tools
                 </h1>
-                <ul className="md:text-2xl flex flex-wrap">
+                <ul className="flex flex-wrap">
                     {Skill("Node.js")}
                     {Skill("Docker")}
                     {Skill("Kubernetes")}
