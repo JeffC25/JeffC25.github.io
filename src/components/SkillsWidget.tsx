@@ -13,6 +13,7 @@ const SkillsWidget = ({ tab }: Props) => {
                 </h1>
                 <ul className="flex flex-wrap">
                     {Skill("Go")}
+                    {Skill("C")}
                     {Skill("C++")}
                     {Skill("C#")}
                     {Skill("Python")}
