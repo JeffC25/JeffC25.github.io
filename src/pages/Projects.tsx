@@ -22,7 +22,7 @@ const Projects = () => {
             {Project({
                 title: "Chat App", 
                 description: "A minimalist live chat application.", 
-                website: "https://chat.yerf.dev", 
+                website: "https://chat-app.yerf.dev", 
                 image: chatapp, 
                 alt: "Project Thumbnail", 
                 technologies: ["React", "JavaScript", "Tailwind", "Firebase"],
