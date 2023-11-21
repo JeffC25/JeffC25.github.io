@@ -7,7 +7,7 @@ const Home = () => {
                 Hi, I'm Jeff.
             </h1>
             <p className="text-4xl">
-                This site's under construction.
+                I'm a software engineer.
             </p>
             {/* <ul className="flex flex-row space-x-12">
                 <a href="https://github.com/JeffC25" className="h-7 w-7">
