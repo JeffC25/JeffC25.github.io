@@ -33,12 +33,11 @@ const Projects = () => {
             {Project({
                 title: "Smart Article Analyzer", 
                 description: "A fullstack website to generate summaries keywords and sentiment level from news articles PDF documents and arbritrary text.", 
-                website: "https://smart-article-analyzer.herokuapp.com", 
+                website: "https://github.com/jeffc25/smart-article-analyzer", 
                 image: smartarticleanalyzer, 
                 alt: "Project Thumbnail", 
                 technologies: ["Python", "Flask", "Bootstrap"], 
-                links: [{title: "Demo", url: "https://smart-article-analyzer.herokuapp.com"}, 
-                {title: "GitHub", url: "https://github.com/jeffc25/chat-app"}
+                links: [{title: "GitHub", url: "https://github.com/jeffc25/smart-article-analyzer"},
                 ]}
             )}
                 
