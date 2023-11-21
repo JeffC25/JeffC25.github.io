@@ -7,7 +7,7 @@ import bucrossing from '../assets/projects/bucrossing/1.jpg';
 const Projects = () => {
     return (
         <div id="projects" className=" w-full snap-start flex justify-center flex-col items-center space-y-10 py-44">
-            <section className="w-2/3 md:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
+            <section className="w-2/3 2xl:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
                 <a href="https://movie.yerf.dev" className="md:w-1/2 rounded-l-lg">
                     <img src={moviebrowser} alt="Project Thumbnail" className="rounded-l-lg"/>
                 </a>
@@ -51,7 +51,7 @@ const Projects = () => {
                     </ul>
                 </div>
             </section>
-            <section className="w-2/3 md:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
+            <section className="w-2/3 2xl:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
                 <img src={chatapp} alt="Project Thumbnail" className="h-full md:w-1/2 rounded-l-lg"/>
                 <div className="md:w-1/2 p-2 bg-neutral-100 rounded-r-lg flex flex-col">
                     <div className="text-xl bg-clip flex flex-row space-x-1">
@@ -81,7 +81,7 @@ const Projects = () => {
                     </ul>
                 </div>
             </section>
-            <section className="w-2/3 md:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
+            <section className="w-2/3 2xl:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
                 <img src={smartarticleanalyzer} alt="Project Thumbnail" className="h-full md:w-1/2 rounded-l-lg"/>
                 <div className="md:w-1/2 p-2 bg-neutral-100 rounded-r-lg flex flex-col">
                     <div className="text-xl bg-clip flex flex-row space-x-1">
@@ -108,7 +108,7 @@ const Projects = () => {
                     </ul>
                 </div>
             </section>
-            <section className="w-2/3 md:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
+            <section className="w-2/3 2xl:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
                 <img src={cookietective} alt="Project Thumbnail" className="h-full md:w-1/2 rounded-l-lg"/>
                 <div className="md:w-1/2 p-2 bg-neutral-100 rounded-r-lg flex flex-col">
                     <div className="text-xl bg-clip flex flex-row space-x-1">
@@ -141,7 +141,7 @@ const Projects = () => {
                     </ul>
                 </div>
             </section>
-            <section className="w-2/3 md:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
+            <section className="w-2/3 2xl:w-1/2 rounded-lg shadow-xl h-fit flex flex-col md:flex-row ">
                 <img src={bucrossing} alt="Project Thumbnail" className="h-full md:w-1/2 rounded-l-lg"/>
                 <div className="md:w-1/2 p-2 bg-neutral-100 rounded-r-lg flex flex-col">
                     <div className="text-xl bg-clip flex flex-row space-x-1">
