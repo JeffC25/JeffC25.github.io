@@ -25,7 +25,7 @@ const Project = ({title, description, website, image, alt, technologies, links}:
                     <div className="flex-grow"></div>
                     <div className="flex flex-row flex-wrap">
                         {links.map((link) => (
-                            <a href={link.url} className="border px-1 ml-1 border-lime-400 hover:bg-lime-400 hover:animate-pulse rounded-md">{link.title}</a>
+                            <a href={link.url} className="border px-1 ml-1 h-min border-lime-400 hover:bg-lime-400 hover:animate-pulse rounded-md">{link.title}</a>
                         ))}
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Project = ({title, description, website, image, alt, technologies, links}:
 
                 <div className="flex-grow"></div>
 
-                <div className="flex flex-row flex-wrap space-x-1">
+                <div className="flex flex-row flex-wrap">
                     {technologies.map((tech) => (
                         <p className="border-cyan-500 border rounded-md p-1 mr-1 mb-1">{tech}</p>
                     ))}
