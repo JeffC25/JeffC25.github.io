@@ -20,8 +20,8 @@ const Project = ({title, description, website, image, alt, technologies, links}:
                 <img src={image} alt={alt} className="rounded-t-lg md:rounded-l-lg md:rounded-tr-none"/>
             </a>
             <div className="md:w-1/2 p-2 rounded-b-lg md:rounded-r-lg flex flex-col">
-                <div className="text-xl bg-clip flex flex-row space-x-1">
-                    <h2 className="">{title}</h2>
+                <div className="bg-clip flex flex-row space-x-1">
+                    <h2 className="text-lg">{title}</h2>
                     <div className="flex-grow"></div>
                     <div className="flex flex-row flex-wrap justify-end">
                         {links.map((link) => (
@@ -32,7 +32,7 @@ const Project = ({title, description, website, image, alt, technologies, links}:
                 
                 <div className="h-px w-full my-1 bg-gradient-to-r from-cyan-500 from-50% to-lime-300"></div>
 
-                <span className="text-lg">{description}</span>
+                <span className="text-sm">{description}</span>
 
                 <div className="flex-grow"></div>
 
