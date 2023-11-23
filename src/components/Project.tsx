@@ -32,7 +32,7 @@ const Project = ({title, description, website, image, alt, technologies, links}:
                 
                 <div className="h-px w-full my-1 bg-gradient-to-r from-cyan-500 from-50% to-lime-300"></div>
 
-                <span className="text-sm">{description}</span>
+                <span className="text pb-10 md:pb-0">{description}</span>
 
                 <div className="flex-grow"></div>
 
