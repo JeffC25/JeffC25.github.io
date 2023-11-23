@@ -16,16 +16,16 @@ interface Props {
 const Project = ({title, description, website, image, alt, technologies, links}: Props) =>{
     return(
         <section className="w-2/3 2xl:w-1/2 rounded-lg shadow-lg h-fit flex flex-col md:flex-row bg-neutral-100">
-            <a href={website} className="md:w-1/2 rounded-t-lg md:rounded-l-lg">
-                <img src={image} alt={alt} className="rounded-t-lg md:rounded-l-lg"/>
+            <a href={website} className="md:w-1/2 rounded-t-lg md:rounded-l-lg md:rounded-tr-none">
+                <img src={image} alt={alt} className="rounded-t-lg md:rounded-l-lg md:rounded-tr-none"/>
             </a>
-            <div className="md:w-1/2 p-2  rounded-b-lg md:rounded-r-lg flex flex-col">
+            <div className="md:w-1/2 p-2 rounded-b-lg md:rounded-r-lg flex flex-col">
                 <div className="text-xl bg-clip flex flex-row space-x-1">
                     <h2 className="">{title}</h2>
                     <div className="flex-grow"></div>
                     <div className="flex flex-row flex-wrap justify-end">
                         {links.map((link) => (
-                            <a href={link.url} className="border px-1 ml-1 h-min border-lime-400 hover:bg-lime-400 hover:animate-pulse rounded-md">{link.title}</a>
+                            <a href={link.url} className="border px-1 ml-1 h-min border-lime-400 hover:bg-lime-400 hover:animate-pulse rounded-md text-sm">{link.title}</a>
                         ))}
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Project = ({title, description, website, image, alt, technologies, links}:
 
                 <div className="flex flex-row flex-wrap">
                     {technologies.map((tech) => (
-                        <p className="border-cyan-500 border rounded-md p-1 mr-1 mb-1">{tech}</p>
+                        <p className="border-cyan-500 border rounded-md p-1 mr-1 mb-1 text-sm">{tech}</p>
                     ))}
                 </div>
             </div>
