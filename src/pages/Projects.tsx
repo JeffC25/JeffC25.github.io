@@ -1,10 +1,11 @@
+import Project from '../components/Project';
 import moviebrowser from '../assets/projects/moviebrowser/1.png';
 import chatapp from '../assets/projects/chatapp/1.png';
 import cookietective from '../assets/projects/cookietective/1.png';
 import smartarticleanalyzer from '../assets/projects/smartarticleanalyzer/1.png';
 import bucrossing from '../assets/projects/bucrossing/1.jpg';
 import seniordesign from '../assets/projects/seniordesign/1.png';
-import Project from '../components/Project';
+import virtualfilesystem from '../assets/projects/virtualfilesystem/1.png';
 
 const Projects = () => {
     return (
@@ -17,8 +18,7 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["React", "React Native", "TypeScript", "Python", "DynamoDB"],
                 links: [{ title: "In Progress", url: "#" }],
-            })
-            }
+            })}
             {Project({
                 title: "Movie Browser",
                 description: "A fullstack website for browsing and discovering movies.",
@@ -27,8 +27,7 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["React", "TypeScript", "Tailwind", "Go", "Redis", "NGINX", "Docker", "AWS"],
                 links: [{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://movie.yerf.dev" }]
-            })
-            }
+            })}
 
             {Project({
                 title: "Chat App",
@@ -38,8 +37,7 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["React", "JavaScript", "Tailwind", "Firebase"],
                 links: [{ title: "Demo", url: "https://chat-app.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/chat-app" }]
-            })
-            }
+            })}
 
             {Project({
                 title: "Smart Article Analyzer",
@@ -61,8 +59,7 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["Python", "Selenium", "SQLite", "Mitmproxy", "Docker"],
                 links: [{ title: "GitHub", url: "https://github.com/Cybersecurity-Project-Group/Cookietective" }]
-            })
-            }
+            })}
 
             {Project({
                 title: "BU Crossing",
@@ -72,8 +69,17 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["C#", "Unity", "MagicaVoxel"],
                 links: [{ title: "GitHub", url: "https://github.com/JeffC25/BU-Crossing" }]
-            })
-            }
+            })}
+
+            {Project({
+                title: "Virtual File System",
+                description: "A lightweight Linux virtual file system library based on the File Allocation Table.",
+                website: "https://github.com/JeffC25/virtual-file-system",
+                image: virtualfilesystem,
+                alt: "Project Thumbnail",
+                technologies: ["C"],
+                links: [{ title: "GitHub", url: "https://github.com/JeffC25/virtual-file-system" }]
+            })}
         </div>
     )
 };
