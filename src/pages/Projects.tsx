@@ -27,7 +27,7 @@ const Projects = () => {
                 image: moviebrowser,
                 alt: "Project Thumbnail",
                 technologies: ["React", "TypeScript", "Tailwind", "Go", "Redis", "PostgreSQL", "NGINX"],
-                links: [{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://movie.yerf.dev" }]
+                links: [{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/movie-browser" }]
             })}
 
             {Project({
