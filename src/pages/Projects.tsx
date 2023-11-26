@@ -13,7 +13,7 @@ const Projects = () => {
             <h1 className="text-xl">Projects</h1>
             {Project({
                 title: "Fridge Tracker",
-                description: "An touch screen attaachment for tracking your fridge contents with receipt scanning and recipe suggestions.",
+                description: "A touch screen attaachment for tracking your fridge contents with receipt scanning and recipe suggestions.",
                 website: "#",
                 image: seniordesign,
                 alt: "Project Thumbnail",
