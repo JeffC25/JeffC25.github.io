@@ -9,7 +9,8 @@ import virtualfilesystem from '../assets/projects/virtualfilesystem/1.png';
 
 const Projects = () => {
     return (
-        <div id="projects" className=" w-full snap-start flex justify-center flex-col items-center space-y-10 py-44">
+        <div id="projects" className="w-full snap-start flex justify-center flex-col items-center space-y-10 py-24">
+            <h1 className="text-xl">Projects</h1>
             {Project({
                 title: "Fridge Tracker",
                 description: "An touch screen attaachment for tracking your fridge contents with receipt scanning and recipe suggestions.",
@@ -21,11 +22,11 @@ const Projects = () => {
             })}
             {Project({
                 title: "Movie Browser",
-                description: "A fullstack website for browsing and discovering movies.",
+                description: "A fullstack website for browsing and discovering movie catalogs and details.",
                 website: "https://movie.yerf.dev",
                 image: moviebrowser,
                 alt: "Project Thumbnail",
-                technologies: ["React", "TypeScript", "Tailwind", "Go", "Redis", "NGINX", "Docker", "AWS"],
+                technologies: ["React", "TypeScript", "Tailwind", "Go", "Redis", "PostgreSQL", "NGINX"],
                 links: [{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://movie.yerf.dev" }]
             })}
 
@@ -57,7 +58,7 @@ const Projects = () => {
                 website: "https://github.com/Cybersecurity-Project-Group/Cookietective",
                 image: cookietective,
                 alt: "Project Thumbnail",
-                technologies: ["Python", "Selenium", "SQLite", "Mitmproxy", "Docker"],
+                technologies: ["Python", "Selenium", "SQLite", "Mitmproxy"],
                 links: [{ title: "GitHub", url: "https://github.com/Cybersecurity-Project-Group/Cookietective" }]
             })}
 

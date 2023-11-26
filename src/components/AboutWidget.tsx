@@ -12,14 +12,16 @@ const AboutWidget = ({ tab }: Props) => {
                 I'm passionate about fullstack web development, cloud architectures, and open-source software.
                 When I'm not developing, I enjoy cooking, drawing, and playing the guitar.
             </p>
-            <div className="w-1/4 pl-10 aspect-square hidden lg:block flex-grow">
+            <div className="w-1/4 pl-10 aspect-square hidden md:block flex-grow">
                 <div className="relative">
                     <img
                         src={pfp}
                         className="aspect-square object-cover rounded-md bottom-2 right-2 absolute shadow-sm"
                         referrerPolicy="no-referrer"
                     />
-                    <div className="aspect-square w-full rounded-md bg-gradient-to-tr from-lime-300 via-cyan-400 to-blue-500"></div>
+                    <div className="aspect-square w-full rounded-md bg-gradient-to-tr from-lime-300 via-cyan-400 to-blue-500">
+                        <div className="aspect-square "></div>
+                    </div>
                 </div>
             </div>
         </section>
