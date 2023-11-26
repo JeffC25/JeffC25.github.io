@@ -13,7 +13,7 @@ const Projects = () => {
             <h1 className="text-xl">Projects</h1>
             {Project({
                 title: "Fridge Tracker",
-                description: "A touch screen attaachment for tracking your fridge contents with receipt scanning and recipe suggestions.",
+                description: "A touchscreen attachment for tracking your fridge contents with automated receipt scanning, recipe suggestions, and expiration date alerts.",
                 website: "#",
                 image: seniordesign,
                 alt: "Project Thumbnail",
@@ -22,7 +22,7 @@ const Projects = () => {
             })}
             {Project({
                 title: "Movie Browser",
-                description: "A fullstack website for browsing and discovering movie catalogs and details.",
+                description: "A fullstack website for browsing and discovering movies content, including overviews, reviews, cast, and trailers, as well as currated lists for trending, currently playing, upcoming, and top-rated films.",
                 website: "https://movie.yerf.dev",
                 image: moviebrowser,
                 alt: "Project Thumbnail",
