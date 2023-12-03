@@ -6,6 +6,7 @@ import smartarticleanalyzer from '../assets/projects/smartarticleanalyzer/1.png'
 import bucrossing from '../assets/projects/bucrossing/1.jpg';
 import seniordesign from '../assets/projects/seniordesign/1.png';
 import virtualfilesystem from '../assets/projects/virtualfilesystem/1.png';
+import portfolio from '../assets/projects/portfolio/1.png';
 
 const Projects = () => {
     return (
@@ -80,6 +81,16 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["C"],
                 links: [{ title: "GitHub", url: "https://github.com/JeffC25/virtual-file-system" }]
+            })}
+
+            {Project({
+                title: "Personal Portfolio",
+                description: "This website!",
+                website: "https://github.com/JeffC25/JeffC25.github.io",
+                image: portfolio,
+                alt: "Project Thumbnail",
+                technologies: ["React", "TypeScript", "Tailwind"],
+                links: [{ title: "GitHub", url: "https://github.com/JeffC25/JeffC25.github.io" }]
             })}
         </div>
     )
