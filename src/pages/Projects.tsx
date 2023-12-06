@@ -14,7 +14,7 @@ const Projects = () => {
             <h1 className="text-xl">Projects</h1>
             {Project({
                 title: "Fridge Tracker",
-                description: "A touchscreen attachment for tracking your fridge contents with automated receipt scanning, recipe suggestions, and expiration date alerts.",
+                description: "A touchscreen attachment for tracking your fridge contents with automated receipt scanning, recipe suggestions, expiration date alerts, and mobile device syncing.",
                 website: "#",
                 image: seniordesign,
                 alt: "Project Thumbnail",
@@ -33,7 +33,7 @@ const Projects = () => {
 
             {Project({
                 title: "Chat App",
-                description: "A minimalist live chat application.",
+                description: "A minimalist chat application with live messaging and private chatrooms.",
                 website: "https://chat-app.yerf.dev",
                 image: chatapp,
                 alt: "Project Thumbnail",
@@ -43,15 +43,14 @@ const Projects = () => {
 
             {Project({
                 title: "Smart Article Analyzer",
-                description: "An application to generate summaries, keywords, and sentiment from articles, PDF documents and arbritrary text.",
+                description: "An application to generate summaries, keywords, and sentiment from articles, PDF documents, and arbritrary text.",
                 website: "https://github.com/jeffc25/smart-article-analyzer",
                 image: smartarticleanalyzer,
                 alt: "Project Thumbnail",
                 technologies: ["Python", "Flask", "Bootstrap"],
                 links: [{ title: "GitHub", url: "https://github.com/jeffc25/smart-article-analyzer" },
                 ]
-            }
-            )}
+            })}
 
             {Project({
                 title: "Cookietective",
@@ -82,6 +81,16 @@ const Projects = () => {
                 technologies: ["C"],
                 links: [{ title: "GitHub", url: "https://github.com/JeffC25/virtual-file-system" }]
             })}
+
+            {/* {Project({
+                title: "Inventory and Sales Monitor",
+                description: "A .NET application for inventory management and transaction tracking, with automated backups via Google Sheets.",
+                website: "#",
+                image: "#",
+                alt: "Project Thumbnail",
+                technologies: ["C#", "WPF", "SQLite"],
+                links: [{ title: "GitHub", url: "#" }]
+            })} */}
 
             {Project({
                 title: "Personal Portfolio",

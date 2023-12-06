@@ -6,7 +6,7 @@ import About from "./pages/About.tsx"
 function App() {
 
   return (
-    <div className="w-full h-screen overflow-y-scroll snap-y scroll-smooth">
+    <div className="w-full h-screen overflow-y-scroll scroll-smooth">
       <Navbar />
       <div className="h-screen">
         <Home />
