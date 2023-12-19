@@ -28,7 +28,7 @@ const Projects = () => {
                 image: moviebrowser,
                 alt: "Project Thumbnail",
                 technologies: ["React", "TypeScript", "Tailwind", "Go", "Redis", "PostgreSQL", "NGINX"],
-                links: [{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/movie-browser" }]
+                links: [{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://github.com/JeffC25/movie-browser" }]
             })}
 
             {Project({
@@ -38,17 +38,17 @@ const Projects = () => {
                 image: chatapp,
                 alt: "Project Thumbnail",
                 technologies: ["React", "JavaScript", "Tailwind", "Firebase"],
-                links: [{ title: "Demo", url: "https://chat-app.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/chat-app" }]
+                links: [{ title: "Demo", url: "https://chat-app.yerf.dev" }, { title: "GitHub", url: "https://github.com/JeffC25/chat-app" }]
             })}
 
             {Project({
                 title: "Smart Article Analyzer",
                 description: "An application to generate summaries, keywords, and sentiment from articles, PDF documents, and arbritrary text.",
-                website: "https://github.com/jeffc25/smart-article-analyzer",
+                website: "https://github.com/JeffC25/smart-article-analyzer",
                 image: smartarticleanalyzer,
                 alt: "Project Thumbnail",
                 technologies: ["Python", "Flask", "Bootstrap"],
-                links: [{ title: "GitHub", url: "https://github.com/jeffc25/smart-article-analyzer" },
+                links: [{ title: "GitHub", url: "https://github.com/JeffC25/smart-article-analyzer" },
                 ]
             })}
 
@@ -90,6 +90,16 @@ const Projects = () => {
                 alt: "Project Thumbnail",
                 technologies: ["C#", "WPF", "SQLite"],
                 links: [{ title: "GitHub", url: "#" }]
+            })} */}
+
+            {/* {Project({
+                title: "MIPS CPU",
+                description: "A 32-bit MIPS CPU implemented in Verilog with control flow, hazard detection, and forwarding.",
+                website: "https://github.com/JeffC25/MIPS-CPU",
+                image: "#",
+                alt: "Project Thumbnail",
+                technologies: ["Verilog"],
+                links: [{ title: "GitHub", url: "https://github.com/JeffC25/MIPS-CPU" }]
             })} */}
 
             {Project({
