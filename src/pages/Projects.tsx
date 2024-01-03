@@ -47,7 +47,7 @@ const Projects = () => {
                 image={tldrover}
                 alt="Project Thumbnail"
                 technologies={["FastAPI", "Python", "React", "TypeScript", "Tailwind"]}
-                links={[{ title: "GitHub", url: "https://github.com/jeffc25/tldrover" }]}
+                links={[{ title: "In Progress", url: "https://github.com/jeffc25/tldrover" }]}
             />
             <Project
                 title="Smart Article Analyzer"
