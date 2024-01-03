@@ -52,11 +52,11 @@ const Projects = () => {
             <Project
                 title="Smart Article Analyzer"
                 description="An application to generate summaries, keywords, and sentiment from articles, PDF documents, and arbritrary text."
-                website="https://github.com/jeffc25/smart-article-analyzer"
+                website="https://github.com/jeffc25/smart-article-analyzer-old"
                 image={smartarticleanalyzer}
                 alt="Project Thumbnail"
                 technologies={["Flask", "Python", "Bootstrap"]}
-                links={[{ title: "GitHub", url: "https://github.com/jeffc25/smart-article-analyzer" }]}
+                links={[{ title: "GitHub", url: "https://github.com/jeffc25/smart-article-analyzer-old" }]}
             />
             <Project
                 title="Cookietective"
