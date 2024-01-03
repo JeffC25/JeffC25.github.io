@@ -25,7 +25,7 @@ const Project = ({title, description, website, image, alt, technologies, links}:
                     <div className="flex-grow"></div>
                     <div className="flex flex-row flex-wrap justify-end">
                         {links.map((link) => (
-                            <a href={link.url} className="border px-1 ml-1 h-min border-lime-400 hover:bg-lime-400 hover:animate-pulse rounded-md text-sm">{link.title}</a>
+                            <a href={link.url} target="_blank" className="border px-1 ml-1 h-min border-lime-400 hover:bg-lime-400 hover:animate-pulse rounded-md text-sm">{link.title}</a>
                         ))}
                     </div>
                 </div>

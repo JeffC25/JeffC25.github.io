@@ -3,6 +3,7 @@ import moviebrowser from '../assets/projects/moviebrowser/1.png';
 import chatapp from '../assets/projects/chatapp/1.png';
 import cookietective from '../assets/projects/cookietective/1.png';
 import smartarticleanalyzer from '../assets/projects/smartarticleanalyzer/1.png';
+import tldrover from '../assets/projects/smartarticleanalyzer/2.png';
 import bucrossing from '../assets/projects/bucrossing/1.jpg';
 import seniordesign from '../assets/projects/seniordesign/1.png';
 import virtualfilesystem from '../assets/projects/virtualfilesystem/1.png';
@@ -14,12 +15,12 @@ const Projects = () => {
             <h1 className="text-xl">Projects</h1>
             <Project
                 title="Fridge Tracker"
-                description="A touchscreen attachment for tracking your fridge contents with automated receipt scanning, recipe suggestions, expiration date alerts, and mobile device syncing."
+                description="An economical touchscreen attachment for grocery management with automated receipt scanning, recipe suggestions, expiration date alerts, and mobile device syncing."
                 website="#"
                 image={seniordesign}
                 alt="Project Thumbnail"
                 technologies={["React", "React Native", "TypeScript", "Python", "DynamoDB"]}
-                links={[{ title: "In Progress", url: "#" }]}
+                links={[{ title: "In Progress", url: "https://github.com/EC463-Smart-Fridge" }]}
             />
             <Project
                 title="Movie Browser"
@@ -40,13 +41,22 @@ const Projects = () => {
                 links={[{ title: "Demo", url: "https://chat-app.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/chat-app" }]}
             />
             <Project
+                title="TLDRover"
+                description="A rewrite of the Smart Article Analyzer"
+                website="github.com/jeffc25/smart-article-analyzer"
+                image={tldrover}
+                alt="Project Thumbnail"
+                technologies={["FastAPI", "Python", "React", "TypeScript", "Tailwind"]}
+                links={[{ title: "GitHub", url: "https://github.com/jeffc25/tldrover" }]}
+            />
+            <Project
                 title="Smart Article Analyzer"
                 description="An application to generate summaries, keywords, and sentiment from articles, PDF documents, and arbritrary text."
                 website="github.com/jeffc25/smart-article-analyzer"
                 image={smartarticleanalyzer}
                 alt="Project Thumbnail"
-                technologies={["Python", "Flask", "Bootstrap"]}
-                links={[{ title: "GitHub", url: "jeffc25/smart-article-analyzer" }]}
+                technologies={["Flask", "Python", "Bootstrap"]}
+                links={[{ title: "GitHub", url: "https://github.com/jeffc25/smart-article-analyzer" }]}
             />
             <Project
                 title="Cookietective"
@@ -55,7 +65,7 @@ const Projects = () => {
                 image={cookietective}
                 alt="Project Thumbnail"
                 technologies={["Python", "Selenium", "SQLite", "Mitmproxy"]}
-                links={[{ title: "GitHub", url: "github.com/Cybersecurity-Project-Group/Cookietective" }]}
+                links={[{ title: "GitHub", url: "https://github.com/Cybersecurity-Project-Group/Cookietective" }]}
             />
             <Project
                 title="BU Crossing"
@@ -63,8 +73,8 @@ const Projects = () => {
                 website="github.com/jeffc25/BU-Crossing"
                 image={bucrossing}
                 alt="Project Thumbnail"
-                technologies={["C#", "Unity", "MagicaVoxel"]}
-                links={[{ title: "GitHub", url: "github.com/jeffc25/BU-Crossing" }]}
+                technologies={["Unity", "C#", "MagicaVoxel"]}
+                links={[{ title: "GitHub", url: "https://github.com/jeffc25/BU-Crossing" }]}
             />
             <Project
                 title="Virtual File System"
@@ -73,7 +83,7 @@ const Projects = () => {
                 image={virtualfilesystem}
                 alt="Project Thumbnail"
                 technologies={["C"]}
-                links={[{ title: "GitHub", url: "github.com/jeffc25/virtual-file-system" }]}
+                links={[{ title: "GitHub", url: "https://github.com/jeffc25/virtual-file-system" }]}
             />
             <Project
                 title="Personal Portfolio"
@@ -82,7 +92,7 @@ const Projects = () => {
                 image={portfolio}
                 alt="Project Thumbnail"
                 technologies={["React", "TypeScript", "Tailwind"]}
-                links={[{ title: "GitHub", url: "github.com/jeffc25/JeffC25.github.io" }]}
+                links={[{ title: "GitHub", url: "https://github.com/jeffc25/JeffC25.github.io" }]}
             />
         </div>
     )
