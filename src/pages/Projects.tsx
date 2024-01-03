@@ -43,7 +43,7 @@ const Projects = () => {
             <Project
                 title="TLDRover"
                 description="A rewrite of the Smart Article Analyzer"
-                website="github.com/jeffc25/smart-article-analyzer"
+                website="https://github.com/jeffc25/smart-article-analyzer"
                 image={tldrover}
                 alt="Project Thumbnail"
                 technologies={["FastAPI", "Python", "React", "TypeScript", "Tailwind"]}
@@ -52,7 +52,7 @@ const Projects = () => {
             <Project
                 title="Smart Article Analyzer"
                 description="An application to generate summaries, keywords, and sentiment from articles, PDF documents, and arbritrary text."
-                website="github.com/jeffc25/smart-article-analyzer"
+                website="https://github.com/jeffc25/smart-article-analyzer"
                 image={smartarticleanalyzer}
                 alt="Project Thumbnail"
                 technologies={["Flask", "Python", "Bootstrap"]}
@@ -61,7 +61,7 @@ const Projects = () => {
             <Project
                 title="Cookietective"
                 description="An investigation of cookie leakage vulnerabilities due to CNAME cloaking across over 17,000 domains."
-                website="github.com/Cybersecurity-Project-Group/Cookietective"
+                website="https://github.com/Cybersecurity-Project-Group/Cookietective"
                 image={cookietective}
                 alt="Project Thumbnail"
                 technologies={["Python", "Selenium", "SQLite", "Mitmproxy"]}
@@ -70,7 +70,7 @@ const Projects = () => {
             <Project
                 title="BU Crossing"
                 description="A Crossy Road-style game with custom Boston University-themed models."
-                website="github.com/jeffc25/BU-Crossing"
+                website="https://github.com/jeffc25/BU-Crossing"
                 image={bucrossing}
                 alt="Project Thumbnail"
                 technologies={["Unity", "C#", "MagicaVoxel"]}
@@ -79,7 +79,7 @@ const Projects = () => {
             <Project
                 title="Virtual File System"
                 description="A lightweight Linux virtual file system library based on the File Allocation Table."
-                website="github.com/jeffc25/virtual-file-system"
+                website="https://github.com/jeffc25/virtual-file-system"
                 image={virtualfilesystem}
                 alt="Project Thumbnail"
                 technologies={["C"]}
@@ -88,7 +88,7 @@ const Projects = () => {
             <Project
                 title="Personal Portfolio"
                 description="This website!"
-                website="github.com/jeffc25/JeffC25.github.io"
+                website="https://github.com/jeffc25/JeffC25.github.io"
                 image={portfolio}
                 alt="Project Thumbnail"
                 technologies={["React", "TypeScript", "Tailwind"]}
