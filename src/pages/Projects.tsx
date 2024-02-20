@@ -32,15 +32,6 @@ const Projects = () => {
                 links={[{ title: "Demo", url: "https://movie.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/movie-browser" }]}
             />
             <Project
-                title="Chat App"
-                description="A minimalist chat application with live messaging and private chatrooms."
-                website="https://chat-app.yerf.dev"
-                image={chatapp}
-                alt="Project Thumbnail"
-                technologies={["React", "JavaScript", "Tailwind", "Firebase"]}
-                links={[{ title: "Demo", url: "https://chat-app.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/chat-app" }]}
-            />
-            <Project
                 title="TLDRover"
                 description="A rewrite of the Smart Article Analyzer"
                 website="https://github.com/jeffc25/smart-article-analyzer"
@@ -48,6 +39,15 @@ const Projects = () => {
                 alt="Project Thumbnail"
                 technologies={["FastAPI", "Python", "React", "TypeScript", "Tailwind"]}
                 links={[{ title: "In Progress", url: "https://github.com/jeffc25/tldrover" }]}
+            />
+            <Project
+                title="Chat App"
+                description="A minimalist chat application with live messaging and private chatrooms."
+                website="https://chat-app.yerf.dev"
+                image={chatapp}
+                alt="Project Thumbnail"
+                technologies={["React", "JavaScript", "Tailwind", "Firebase"]}
+                links={[{ title: "Demo", url: "https://chat-app.yerf.dev" }, { title: "GitHub", url: "https://github.com/jeffc25/chat-app" }]}
             />
             <Project
                 title="Smart Article Analyzer"
