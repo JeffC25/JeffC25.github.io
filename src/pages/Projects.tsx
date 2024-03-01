@@ -19,7 +19,7 @@ const Projects = () => {
                 website="#"
                 image={seniordesign}
                 alt="Project Thumbnail"
-                technologies={["React", "React Native", "TypeScript", "Python", "DynamoDB"]}
+                technologies={["React Native", "TypeScript", "Python", "Java", "Go", "DynamoDB"]}
                 links={[{ title: "In Progress", url: "https://github.com/EC463-Smart-Fridge" }]}
             />
             <Project
