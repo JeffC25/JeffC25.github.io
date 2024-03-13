@@ -12,6 +12,7 @@ const SkillsWidget = ({ tab }: Props) => {
             <SkillCategory category="Databases" skills={["PostgreSQL", "SQLite", "MongoDB", "Redis", "Neo4j", "DynamoDB"]} />
             <SkillCategory category="Tools" skills={["Node.js", "Docker", "Kubernetes", "Git", "NGINX", "Amazon Web Services", "Google Cloud"]} />
             <SkillCategory category="Concepts" skills={["Microservices", "Machine Learning", "REST APIs", "RPC", "Object-Oriented Design", "Agile", "CI/CD"]} />
+            <SkillCategory category="Other" skills={["SOLIDWORKS", "OnShape", "KiCAD"]} />
         </section>
     )
 }
