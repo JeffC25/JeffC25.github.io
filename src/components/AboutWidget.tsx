@@ -8,9 +8,9 @@ const AboutWidget = ({ tab }: Props) => {
     return (
         <section className={`pt-10 w-full flex flex-row flex-grow justify-center ${(tab == 0 ? "block" : "hidden")}`}>
             <p className="md:w-2/3">
-                I'm a 4th year Computer Engineering student at Boston University.
+                I'm a Computer Engineering graduate from Boston University.
                 <br /><br />
-                I have experience with fullstack web development, DevOps, machine learning, and cloud computing.
+                I work in web development and and system-level programming.
                 <br /><br />
                 When I'm not developing, I enjoy cooking, drawing, and playing the guitar.
             </p>
