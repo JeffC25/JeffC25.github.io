@@ -10,7 +10,7 @@ const AboutWidget = ({ tab }: Props) => {
             <p className="md:w-2/3">
                 I'm a Computer Engineering graduate from Boston University.
                 <br /><br />
-                I work in web development and and system-level programming.
+                I work in web development and system-level programming.
                 <br /><br />
                 When I'm not developing, I enjoy cooking, drawing, and playing the guitar.
             </p>
