@@ -10,9 +10,9 @@ const AboutWidget = ({ tab }: Props) => {
             <p className="md:w-2/3">
                 I'm a Computer Engineering graduate from Boston University.
                 <br /><br />
-                I work in web development and system-level programming.
+                I like building with web apps and unix tools.
                 <br /><br />
-                When I'm not developing, I enjoy cooking, drawing, and playing the guitar.
+                When I'm not coding, I enjoy cooking, drawing, and playing the guitar.
             </p>
             <div className="w-1/4 pl-10 aspect-square hidden md:block flex-grow">
                 <div className="relative">
