@@ -7,7 +7,7 @@ const Home = () => {
                 Hi, I'm <div className="bg-gradient-to-r from-cyan-500 to-lime-500 bg-clip-text text-transparent inline">Jeff</div>.
             </h1>
             <p className="text-4xl">
-                I'm a software engineer.
+                I'm a developer.
             </p>
         </div>
     )
