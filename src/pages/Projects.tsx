@@ -2,7 +2,7 @@ import Project from '../components/Project';
 import moviebrowser from '../assets/projects/moviebrowser/1.png';
 import chatapp from '../assets/projects/chatapp/1.png';
 import cookietective from '../assets/projects/cookietective/1.png';
-import smartarticleanalyzer from '../assets/projects/smartarticleanalyzer/1.png';
+// import smartarticleanalyzer from '../assets/projects/smartarticleanalyzer/1.png';
 import tldrover from '../assets/projects/smartarticleanalyzer/2.png';
 import bucrossing from '../assets/projects/bucrossing/1.jpg';
 import seniordesign from '../assets/projects/seniordesign/1.png';
