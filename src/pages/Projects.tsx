@@ -8,6 +8,7 @@ import bucrossing from '../assets/projects/bucrossing/1.jpg';
 import seniordesign from '../assets/projects/seniordesign/1.png';
 import virtualfilesystem from '../assets/projects/virtualfilesystem/1.png';
 import portfolio from '../assets/projects/portfolio/1.png';
+import asciiart from '../assets/projects/asciiart/1.png';
 import wip from '../assets/wip.png'
 
 const Projects = () => {
@@ -16,21 +17,12 @@ const Projects = () => {
             <h1 className="text-xl">Projects</h1>
             <Project
                 title="Ascii-Art"
-                description="A CLI tool and Go library for converting images to ASCII Art with edge detection"
-                website="#"
-                image={wip}
+                description="A CLI tool and Go library for converting images into ASCII Art while detecting and edges and their angles to map them to special characters"
+                website="https://github.com/JeffC25/ascii-art"
+                image={asciiart}
                 alt="Project Thumbnail"
                 technologies={["Go"]}
-                links={[{ title: "In Progress", url: "#" }]}
-            />
-            <Project
-                title="GitQuill"
-                description="A personal blog template that posts via Git commits"
-                website="#"
-                image={wip}
-                alt="Project Thumbnail"
-                technologies={["Go", "HTMX"]}
-                links={[{ title: "In Progress", url: "#" }]}
+                links={[{ title: "GitHub", url: "https://github.com/JeffC25/ascii-art" }]}
             />
             <Project
                 title="FridgeBuddy - Smart Fridge Tracker"
@@ -39,7 +31,7 @@ const Projects = () => {
                 image={seniordesign}
                 alt="Project Thumbnail"
                 technologies={["React", "React Native", "TypeScript", "Python", "DynamoDB"]}
-                links={[{ title: "Github", url: "https://github.com/EC463-Smart-Fridge" }]}
+                links={[{ title: "GitHub", url: "https://github.com/EC463-Smart-Fridge" }]}
             />
             <Project
                 title="Movie Browser"
@@ -113,6 +105,15 @@ const Projects = () => {
                 alt="Project Thumbnail"
                 technologies={["React", "TypeScript", "Tailwind"]}
                 links={[{ title: "GitHub", url: "https://github.com/jeffc25/JeffC25.github.io" }]}
+            />
+            <Project
+                title="GitQuill"
+                description="A personal blog template that posts via Git commits"
+                website="#"
+                image={wip}
+                alt="Project Thumbnail"
+                technologies={["Go", "HTMX"]}
+                links={[{ title: "In Progress", url: "#" }]}
             />
         </div>
     )
