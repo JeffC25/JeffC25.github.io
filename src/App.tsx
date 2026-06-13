@@ -6,7 +6,8 @@
 function App() {
   return (
     <div className="w-full h-screen overflow-y-scroll scroll-smooth">
-      <p className="w-full h-full text-center">🚧 Under Construction 🚧</p>
+      <p className="w-full text-center">🚧 Under Construction 🚧</p>
+      <p className="w-full text-center">I'm rebuilding this site. It'll be back when it's ready.</p>
       {/* <Navbar /> */}
       {/* <div className="h-screen"> */}
       {/*   <Home /> */}
